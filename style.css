@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('kampus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}3
+
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  background: linear-gradient(180deg, #17b9e6, #32f463);
+  padding-top: 30px;
+  position: fixed;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+
+    /* warna + transparan */
+    background: rgba(0, 0, 0, 0.6);
+
+    /* efek blur (keren banget) */
+    backdrop-filter: blur(10px);
+
+    /* biar di atas background */
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    /* bayangan biar lebih jelas */
+    box-shadow: 2px 0 10px rgba(0,0,0,0.5);
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-left: 4px solid transparent;
+}
+
+.sidebar a:hover {
+  background: rgba(255,255,255,0.2);
+  border-left: 4px solid #5ff831;
+  padding-left: 30px;
+}
+
+/* Content */
+.content {
+  margin-left: 230px;
+  padding: 30px;
+  width: 100%;
+}
+
+section {
+  background: white;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(to right, #75f37f, #26f126);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
